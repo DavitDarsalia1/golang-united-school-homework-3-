@@ -15,5 +15,7 @@ func sortMapValues(input map[int]string) (result []string) {
 		fmt.Println(input[i])
 		result = append(result, input[i+1])
 	}
+
 	return
+
 }
